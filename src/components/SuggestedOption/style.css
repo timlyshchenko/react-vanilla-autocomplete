@@ -1,0 +1,19 @@
+.autocomplete-suggestion {
+    display: -webkit-box;
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 3px 8px;
+    overflow: hidden;
+    cursor: pointer;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.autocomplete-suggestion .highlighted {
+    font-weight: bold;
+}
+
+.selected-suggestion {
+    background-color: antiquewhite;
+}

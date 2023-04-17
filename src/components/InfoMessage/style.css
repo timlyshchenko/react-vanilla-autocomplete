@@ -1,0 +1,8 @@
+.info-message {
+    padding: 3px 8px;
+    color: #666666;
+}
+
+.info-message.error {
+    color: #802d2d;
+}

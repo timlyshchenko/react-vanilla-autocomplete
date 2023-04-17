@@ -1,0 +1,45 @@
+.autocomplete-container {
+    display: flex;
+    position: relative;
+    margin: 50px;
+}
+
+.autocomplete-input {
+    padding: 8px 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.autocomplete-suggestion-section {
+    position: absolute;
+    left: 0;
+    top: 39px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 15px;
+    background-color: #fff;
+    box-shadow:
+            7.5px 9.5px 10px rgba(0, 0, 0, 0.035),
+            60px 76px 80px rgba(0, 0, 0, 0.07);
+    border-radius: 4px;
+    color: #000;
+    overflow-x: hidden;
+    max-height: 347px;
+    overflow-y: scroll;
+    /* Hides the scrollbar for Firefox */
+    scrollbar-width: none;
+}
+
+.autocomplete-suggestion-section::-webkit-scrollbar {
+    /* Hides the scrollbar for Chrome, Safari, and Edge */
+    display: none;
+}
